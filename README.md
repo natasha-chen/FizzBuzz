@@ -352,7 +352,7 @@ on MarkUs to get practice with running the self tests on MarkUs.
 We're looking for integers greater than 0 that are multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+- [X] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
 Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 > Tip: Just like with `psvm`, you can start typing `sout`
@@ -365,7 +365,7 @@ is happy with their own code for this.
 
 Now, let's modify your code so that it is easy to test.
 
-- [ ] Extract a method from `Multiples.main` that will return
+- [X] Extract a method from `Multiples.main` that will return
   the answer, call it `multiples`. The answer should still be printed in your `Multiples.main` method.
   After you do this, your `Multiples.main` method should look something like:
 
@@ -377,19 +377,19 @@ System.out.println(count);
 > In order to later test the `multiples` method, we will need to change the access modifier on your
 > extracted method. To do this, you can remove the `private` keyword.
 
-- [ ] Right-click the first line and choose `Refactor->Inline Variable` to
+- [X] Right-click the first line and choose `Refactor->Inline Variable` to
   further simplify the method body to just one line of code.
 
 > Something to think about: is code _more_ or _less_ readable when we inline variables in this way?
 
-- [ ] Modify the `multiples` method so that it takes **three** parameters:
+- [X] Modify the `multiples` method so that it takes **three** parameters:
     - an integer `n`,
     - an integer `a`,
     - an integer `b`.
 
 These will all be positive integers.
 
-- [ ] Generalize the code so that it uses:
+- [X] Generalize the code so that it uses:
     - `n` in place of where 1000 was previously used
     - `a` where 3 was used
     - `b` where 5 was used.
@@ -407,9 +407,9 @@ and then `Add Junit 5.8.1 to classpath`. Then you should be able to run the test
 After you have run the tests once, you may see a play button appear beside `MultiplesTest`
 in this file. You can then click that to conveniently rerun the tests.
 
-- [ ] Make sure the tests all pass in the file.
+- [X] Make sure the tests all pass in the file.
 
-- [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
+- [X] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
   and upload it to your GitHub repo.
 
 Once the tests are passing and your work is on GitHub, you are ready to submit your code to MarkUs!
